@@ -33,7 +33,7 @@ slidersImages.forEach(function (img) {
 });
 
 // пригождалось для теста работы srcset
-const images = document.querySelectorAll(".img-test");
+const images = document.querySelectorAll(".capybara-slider__image");
 images.forEach(function (img) {
   console.log(img.currentSrc);
 });
