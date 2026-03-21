@@ -1,0 +1,108 @@
+#===========================
+### Node modules
+node_modules
+
+#===========================
+### Package locks
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+#===========================
+### Coverage
+coverage
+
+#===========================
+### Gulp
+gulpfile.js
+gulpfile.mjs
+
+#===========================
+### Minified files and maps
+*.min.js
+*.min.css
+*.map
+
+#===========================
+### Config files
+*.config.js
+*.config.cjs
+*.config.mjs
+*.config.ts
+
+#===========================
+### Build and output
+dist
+build
+out
+.output
+.out
+.next
+.nuxt
+.vite
+.turbo
+.storybook-static
+.vercel
+.netlify
+
+#===========================
+### Cache files
+.cache
+.parcel-cache
+.sass-cache
+.postcss-cache
+.stylelintcache
+.eslintcache
+.prettiercache
+*.tsbuildinfo
+
+#===========================
+### Logs and temporary
+*.log
+*.tmp
+.temp
+tmp
+*.pid
+*.pid.lock
+*.orig
+*.bak
+*.old
+
+#===========================
+### Environment files
+.env
+.env.*
+.env.*.local
+
+#===========================
+### IDE and system files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+.fuse_hidden*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+
+#===========================
+### Design and assets
+*.psd
+*.ai
+*.xd
+*.sketch
+*.fig
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.avif
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+

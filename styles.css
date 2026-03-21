@@ -1,3 +1,4 @@
+/* Mini reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -32,18 +33,21 @@ body {
   user-select: none;
 }
 
+/* Slides from the thumbnails slider */
 .capybara-slider__thumbs .swiper-slide {
   width: 8rem;
   height: 100%;
   cursor: pointer;
 }
 
+/* All capybara images (from both sliders) */
 .capybara-slider__image {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
+/* Styles for the nav buttons */
 .capybara-slider__thumbs .swiper-button-prev,
 .capybara-slider__thumbs .swiper-button-next {
   top: 0;
@@ -54,19 +58,20 @@ body {
   background-color: rgb(209, 208, 208);
   color: black;
 }
-
 .capybara-slider__thumbs .swiper-button-prev {
   left: 0;
 }
-
 .capybara-slider__thumbs .swiper-button-next {
   right: 0;
 }
 
+/* Hide the nav button when the slider is scrolled to the edge (by default there
+was only opacity: 0.35;) */
 .capybara-slider__thumbs .swiper-button-disabled {
   display: none;
 }
 
+/* Highlight for the active thumbs slide */
 .capybara-slider__thumbs .swiper-slide-thumb-active {
   border: 1px solid white;
 }
